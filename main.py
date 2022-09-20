@@ -3,8 +3,8 @@ from os import access
 
 def password(p):
     if p=="Knights19":
-        print("acess granted")
+        return("ACCESS GRANTED")
 
     else:
-        print("access denied")
+        return("ACCESS DENIED")
 
